@@ -1,12 +1,12 @@
+// import axios from "axios";
+// const BASE_URL = "http://localhost:5000/api";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "/api/hotels";
 
 export const fetchHotels = async (filters) => {
-  console.log(filters);
-
   try {
-    const response = await axios.get(`${BASE_URL}/hotels`, {
+    const response = await axios.get(BASE_URL, {
       params: {
         cityCode: filters.cityCode,
         checkInDate: filters.checkInDate,
