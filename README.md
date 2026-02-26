@@ -1,11 +1,3 @@
-Perfect 👌
-Here is a **professional README.md** tailored for your Otelier assignment.
-
-You can copy-paste this into your `README.md`.
-
----
-
-```markdown
 # 🏨 Hotel Finder App
 
 A hospitality-focused React application built as part of the Otelier Frontend Coding Assignment.
